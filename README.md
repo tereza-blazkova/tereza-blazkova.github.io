@@ -94,8 +94,5 @@
             </ul>
         </section>
     </div>
-    <footer>
-        <p>&copy; 2024 Tereza Blažková</p>
-    </footer>
 </body>
 </html>
