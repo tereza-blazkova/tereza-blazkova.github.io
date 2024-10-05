@@ -83,16 +83,15 @@ Social data science skills: Algorithmic fairness, computational social science, 
             <h2>Publications</h2>
             <ul>
                 <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Greenwashing debates on Twitter: Stakeholders and critical topics </a> </li>
-               <li><a> Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media </a> Under review </li>
+               <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a> Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media </a> (Under review) </li>
                         <!-- Add more publications as needed -->
             </ul>
         </section>
         <section id="blog">
             <h2>Blog</h2>
-            <p>Your blog content goes here. You can write about your research, academic experiences, or other related topics.</p>
+          <!--   <p>Your blog content goes here. You can write about your research, academic experiences, or other related topics.</p>-->
             <ul>
                 <li><a href="link-to-blog-post1" style="color: #4CAF50;">Blog Post Title 1</a> - Brief summary of the post.</li>
-                <li><a href="link-to-blog-post2" style="color: #4CAF50;">Blog Post Title 2</a> - Brief summary of the post.</li>
                 <!-- Add more blog posts as needed -->
             </ul>
         </section>
@@ -102,6 +101,7 @@ Social data science skills: Algorithmic fairness, computational social science, 
             <ul>
                 <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #4CAF50;">tebla@sodas.ku.dk</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #4CAF50;">linkedin.com/in/tblazkova/</a></li>
+                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #4CAF50;">Google Scholar profile</a></li>
                 <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #4CAF50;">@tereza_blazek</a></li>
             </ul>
         </section>
