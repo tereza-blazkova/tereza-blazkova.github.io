@@ -101,7 +101,11 @@
 </section>
 <section id="cv">
     <h2>CV</h2>
-    <p>Download my CV here.</p>
+    <p>You can view or download my CV using the links below:</p>
+    <!-- Link to view the CV in the browser -->
+    <a href="cv.pdf" target="_blank" style="color: #4CAF50;">View CV (PDF)</a>
+    <br>
+    <!-- Link to download the CV -->
     <a href="cv.pdf" download style="color: #4CAF50;">Download CV (PDF)</a>
 </section>
     </div>
