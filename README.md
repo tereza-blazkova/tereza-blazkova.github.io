@@ -82,7 +82,7 @@ Social data science skills: Algorithmic fairness, computational social science, 
         <section id="publications">
             <h2>Publications</h2>
             <ul>
-                <li><a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Greenwashing debates on Twitter: Stakeholders and critical topics </a> - Brief description or abstract.</li>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Greenwashing debates on Twitter: Stakeholders and critical topics </a> </li>
                <li><a> Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media </a> Under review </li>
                         <!-- Add more publications as needed -->
             </ul>
