@@ -76,8 +76,6 @@
         <section id="about">
             <h2>About</h2>
             <p> Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. I hold a Bachelor’s degree in Sociology with Economics from Charles University and a Master’s degree in Social Data Science from the University of Copenhagen. My research focuses on algorithm audits and their application to predictive analytics in education. My academic interests revolve around responsible AI, algorithmic fairness, algorithm auditing, data governance, education data science and sustainability.
-
-Social data science skills: Algorithmic fairness, computational social science, data analysis, discourse analysis, machine learning, and natural language processing.</p>
         </section>
         <section id="publications">
             <h2>Publications</h2>
