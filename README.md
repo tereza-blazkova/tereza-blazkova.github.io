@@ -101,8 +101,8 @@
 </section>
 <section id="cv">
     <h2>CV</h2>
-    <p>View or download my CV here.</p>
-    <a href="path/to/your/cv.pdf" download style="color: #4CAF50;">Download CV (PDF)</a>
+    <p>Download my CV here.</p>
+    <a href="cv.pdf" download style="color: #4CAF50;">Download CV (PDF)</a>
 </section>
     </div>
 </body>
