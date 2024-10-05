@@ -87,10 +87,8 @@
         </section>
         <section id="blog">
             <h2>Blog</h2>
-          <!--   <p>Your blog content goes here. You can write about your research, academic experiences, or other related topics.</p>-->
             <ul>
-                <li><a href="link-to-blog-post1" style="color: #4CAF50;">Blog Post Title 1</a> - Brief summary of the post.</li>
-                <!-- Add more blog posts as needed -->
+                <li><a href="my-motivation.html" style="color: #4CAF50;">My motivation to have a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
             </ul>
         </section>
         <section id="contact">
