@@ -63,7 +63,7 @@
 <body>
     <header>
         <h1>Tereza Blažková</h1>
-        <p>PhD Student at the University of Copenhagen</p>
+        <p>PhD Student in Social Data Science at the University of Copenhagen</p>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -75,13 +75,16 @@
     <div class="container">
         <section id="about">
             <h2>About</h2>
-            <p>Brief introduction or biography about yourself, including your research interests and academic background.</p>
+            <p> Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. I hold a Bachelor’s degree in Sociology with Economics from Charles University and a Master’s degree in Social Data Science from the University of Copenhagen. My research focuses on algorithm audits and their application to predictive analytics in education. My academic interests revolve around responsible AI, algorithmic fairness, algorithm auditing, data governance, education data science and sustainability.
+
+Social data science skills: Algorithmic fairness, computational social science, data analysis, discourse analysis, machine learning, and natural language processing.</p>
         </section>
         <section id="publications">
             <h2>Publications</h2>
             <ul>
-                <li><a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Publication Title 1</a> - Brief description or abstract.</li>
-                <!-- Add more publications as needed -->
+                <li><a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Greenwashing debates on Twitter: Stakeholders and critical topics </a> - Brief description or abstract.</li>
+               <li><a> Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media </a> Under review </li>
+                        <!-- Add more publications as needed -->
             </ul>
         </section>
         <section id="blog">
