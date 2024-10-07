@@ -21,7 +21,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background-color: #222;
+            background-color: #000;
             border-bottom: 1px solid #333;
         }
         nav a {
