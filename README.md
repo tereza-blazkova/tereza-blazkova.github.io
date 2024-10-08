@@ -12,17 +12,15 @@
             color: #fff;
         }
         header {
-            background-color: #000;
+            background-color: #333; /* Grey background to match rectangles */
             color: #fff;
-            padding: 2rem;
+            padding: 1rem;
             text-align: center;
-            border-bottom: 1px solid #333;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #000;
-            border-bottom: 1px solid #333;
+            background-color: #333; /* Same grey as header */
         }
         nav a {
             color: #fff;
@@ -42,18 +40,18 @@
         section {
             margin-bottom: 2rem;
             padding: 1rem;
-            background-color: #333;
+            background-color: #333; /* Same grey background */
             border-radius: 8px;
         }
         h1, h2 {
             color: #fff;
+            margin: 0; /* Removed any default margin */
         }
         footer {
             text-align: center;
             padding: 1rem;
             background-color: #111;
             color: #fff;
-            border-top: 1px solid #333;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -85,41 +83,41 @@
         <a href="#cv">CV</a>
     </nav>
     <div class="container">
-<section id="about">
-    <h2>About</h2>
-    <p> Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. My research focuses on the use of data for improving educational outcomes and on algorithm audits. My academic interests revolve around responsible AI, algorithmic fairness, algorithm auditing, data governance, education data science and sustainability. I am particularly interested in using qualitative and quantitative mixed methods appproach to ensure that an algorithm design corresponds to the needs of the environment in which it operates. </p>
-</section> <!-- Make sure every opening tag has a closing tag -->
-<section id="publications">
-    <h2>Publications</h2>
-    <ul>
-        <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Greenwashing debates on Twitter: Stakeholders and critical topics </a> </li>
-        <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a> Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media </a> (Under review) </li>
-    </ul>
-</section>
-<section id="blog">
-    <h2>Blog</h2>
-    <ul>
-        <li><a href="my-motivation.html" style="color: #4CAF50;">My motivation to have a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
-    </ul>
-</section>
-<section id="contact">
-    <h2>Contact</h2>
-    <ul>
-        <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #4CAF50;">tebla@sodas.ku.dk</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #4CAF50;">linkedin.com/in/tblazkova/</a></li>
-        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #4CAF50;">Google Scholar profile</a></li>
-        <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #4CAF50;">@tereza_blazek</a></li>
-    </ul>
-</section>
-<section id="cv">
-    <h2>CV</h2>
-    <p>You can view or download my CV using the links below:</p>
-    <!-- Link to view the CV in the browser -->
-    <a href="cv.pdf" target="_blank" style="color: #4CAF50;">View CV (PDF)</a>
-    <br>
-    <!-- Link to download the CV -->
-    <a href="cv.pdf" download style="color: #4CAF50;">Download CV (PDF)</a>
-</section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. My research focuses on the use of data for improving educational outcomes and on algorithm audits. My academic interests revolve around responsible AI, algorithmic fairness, algorithm auditing, data governance, education data science and sustainability. I am particularly interested in using qualitative and quantitative mixed methods approach to ensure that an algorithm design corresponds to the needs of the environment in which it operates.</p>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #4CAF50;">Greenwashing debates on Twitter: Stakeholders and critical topics</a></li>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a>Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media</a> (Under review)</li>
+            </ul>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <ul>
+                <li><a href="my-motivation.html" style="color: #4CAF50;">My motivation to have a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #4CAF50;">tebla@sodas.ku.dk</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #4CAF50;">linkedin.com/in/tblazkova/</a></li>
+                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #4CAF50;">Google Scholar profile</a></li>
+                <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #4CAF50;">@tereza_blazek</a></li>
+            </ul>
+        </section>
+        <section id="cv">
+            <h2>CV</h2>
+            <p>You can view or download my CV using the links below:</p>
+            <!-- Link to view the CV in the browser -->
+            <a href="cv.pdf" target="_blank" style="color: #4CAF50;">View CV (PDF)</a>
+            <br>
+            <!-- Link to download the CV -->
+            <a href="cv.pdf" download style="color: #4CAF50;">Download CV (PDF)</a>
+        </section>
     </div>
 </body>
 </html>
