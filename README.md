@@ -11,16 +11,26 @@
             background-color: #5E716A;
             color: #fff;
         }
+        /* Container styling for header and nav to match sections below */
+        .header-container {
+            max-width: 800px; /* Same width as the container sections */
+            margin: 0 auto; /* Center align */
+        }
         header {
-            background-color: #333; /* Grey background to match rectangles */
+            background-color: #333; /* Grey background to match other sections */
             color: #fff;
             padding: 1rem;
             text-align: center;
+            margin: 0; /* Remove default margins */
+            border: none; /* Remove borders if any */
         }
         nav {
             display: flex;
             justify-content: center;
             background-color: #333; /* Same grey as header */
+            padding: 0.5rem; /* Adjust padding for consistency */
+            margin: 0; /* Remove default margins */
+            border: none; /* Remove borders if any */
         }
         nav a {
             color: #fff;
@@ -45,7 +55,10 @@
         }
         h1, h2 {
             color: #fff;
-            margin: 0; /* Removed any default margin */
+            margin: 0; /* Remove default margin */
+        }
+        p {
+            margin: 0.5rem 0; /* Adjust paragraph margins */
         }
         footer {
             text-align: center;
@@ -69,19 +82,22 @@
             display: none;
         }
     </style>
-</head>    
+</head>
 <body>
-    <header>
-        <h1>Tereza Blažková</h1>
-        <p>PhD Student in Social Data Science at the University of Copenhagen</p>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#publications">Publications</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-        <a href="#cv">CV</a>
-    </nav>
+    <!-- Container to wrap the header and nav elements for uniform width -->
+    <div class="header-container">
+        <header>
+            <h1>Tereza Blažková</h1>
+            <p>PhD Student in Social Data Science at the University of Copenhagen</p>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="#cv">CV</a>
+        </nav>
+    </div>
     <div class="container">
         <section id="about">
             <h2>About</h2>
