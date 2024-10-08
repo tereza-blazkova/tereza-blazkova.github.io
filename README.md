@@ -33,7 +33,7 @@
             border: none; /* Remove borders if any */
         }
         nav a {
-            color: #fff;
+            color: #FFA500;
             padding: 1rem;
             text-decoration: none;
             display: block;
