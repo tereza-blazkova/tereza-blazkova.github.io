@@ -88,6 +88,7 @@
     <div class="header-container">
         <header>
             <h1>Tereza Blažková</h1>
+            <h1>(WEBSITE UNDER CONSTRUCTION)</h1>
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
         </header>
         <nav>
