@@ -15,11 +15,9 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Ensure no extra border, outline, or box-shadow on the header */
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem;
     text-align: center;
     margin: 0;
     border: none;
