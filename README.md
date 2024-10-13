@@ -158,7 +158,7 @@ a[href="https://tereza-blazkova.github.io/"] {
                 <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #fea585;">tebla@sodas.ku.dk</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #fea585;">linkedin.com/in/tblazkova/</a></li>
                 <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #fea585;">Google Scholar profile</a></li>
-                <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #fea585;">@tereza_blazek</a></li>
+                <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #fea585;" target="_blank">@tereza_blazek</a></li>
             </ul>
         </section>
         <section id="cv">
