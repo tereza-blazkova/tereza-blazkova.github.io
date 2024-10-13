@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
-/* Reset margin and padding on the whole page */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -27,14 +27,13 @@ header {
     border-radius: 8px 8px 0 0;
 }
 
-/* Reset margin and padding for all elements to avoid extra lines */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Container styling for header and nav */
 .header-container, .container {
     max-width: 800px;
     margin: 2rem auto;
@@ -64,7 +63,6 @@ nav a:hover, a:hover {
     text-decoration: none; /* Ensure no underline on hover */
 }
 
-/* Section styling */
 section {
     margin-bottom: 2rem;
     padding: 1rem;
@@ -90,7 +88,6 @@ footer {
     bottom: 0;
 }
 
-/* Additional styling for white text */
 a {
     color: #fff;
     text-decoration: none;
@@ -167,10 +164,8 @@ a[href="https://tereza-blazkova.github.io/"] {
         <section id="cv">
             <h2>CV</h2>
             <p>You can view or download my CV using the links below:</p>
-            <!-- Link to view the CV in the browser -->
             <a href="cv.pdf" target="_blank" style="color: #fea585;">View CV (PDF)</a>
             <br>
-            <!-- Link to download the CV -->
             <a href="cv.pdf" download style="color: #fea585;">Download CV (PDF)</a>
         </section>
     </div>
