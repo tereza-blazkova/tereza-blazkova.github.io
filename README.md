@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
-/* Ensure no unwanted margin or padding on the whole page */
+/* Reset margin and padding on the whole page */
 html, body {
     margin: 0;
     padding: 0;
@@ -15,42 +15,42 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Ensure padding and borders are included in the element's total width and height */
-* {
-    box-sizing: border-box;
-}
-
-/* Reset margins for header elements */
-h1, p {
-    margin: 0; /* Remove any extra margins */
-}
-
-/* Container styling for header and nav to match sections below */
-.header-container, .container {
-    max-width: 800px; /* Ensure same width for header and sections */
-    margin: 2rem auto; /* Center align both */
-    width: 100%; /* Ensure it takes full width up to max-width */
-}
-
+/* Ensure no extra border, outline, or box-shadow on the header */
 header {
-    background-color: #333; /* Grey background to match other sections */
+    background-color: #333;
     color: #fff;
     padding: 1rem;
     text-align: center;
     margin: 0;
-    border: none;
-    border-radius: 8px 8px 0 0; /* Only top corners rounded */
+    border: none; /* Ensure no borders */
+    outline: none; /* Remove any outlines */
+    box-shadow: none; /* Remove any box-shadow */
+    border-radius: 8px 8px 0 0; /* Rounded corners */
+}
+
+/* Reset margin and padding for all elements to avoid extra lines */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling for header and nav */
+.header-container, .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    width: 100%;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333; /* Same grey as header */
+    background-color: #333;
     padding: 0.5rem;
     margin: 0;
     border: none;
-    border-radius: 0 0 8px 8px; /* Only bottom corners rounded */
-    flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+    border-radius: 0 0 8px 8px;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -65,6 +65,7 @@ nav a:hover {
     background-color: #444;
 }
 
+/* Section styling */
 section {
     margin-bottom: 2rem;
     padding: 1rem;
@@ -109,19 +110,19 @@ a[href="https://tereza-blazkova.github.io/"] {
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     body {
-        font-size: 0.9rem; /* Reduce font size for smaller screens */
+        font-size: 0.9rem;
     }
     header {
-        padding: 0.5rem; /* Reduce padding for smaller screens */
+        padding: 0.5rem;
     }
     nav a {
-        padding: 0.5rem; /* Reduce padding for links */
+        padding: 0.5rem;
     }
     .container {
-        padding: 1rem; /* Reduce padding in sections */
+        padding: 1rem;
     }
     footer {
-        font-size: 0.8rem; /* Reduce footer font size */
+        font-size: 0.8rem;
     }
 }
     </style>
