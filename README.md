@@ -135,7 +135,7 @@ a[href="https://tereza-blazkova.github.io/"] {
         <header>
             <h1>Tereza Blažková</h1>
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
-            <p><span style="background-color: pink; color: black;">(WEBSITE UNDER CONSTRUCTION)</span></p>
+        <!--    <p><span style="background-color: pink; color: black;">(WEBSITE UNDER CONSTRUCTION)</span></p> -->
             <div id="language-switch">
                 <button onclick="switchLanguage('en')" class="active">English</button>
                 <button onclick="switchLanguage('cz')">Česky</button>
