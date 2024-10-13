@@ -36,9 +36,11 @@ header {
 
 /* Container styling for header and nav */
 .header-container, .container {
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 2rem auto;
+    width: 100%;
+    overflow: hidden; /* Add this to prevent overflow */
 }
-
 nav {
     display: flex;
     justify-content: center;
@@ -71,8 +73,7 @@ section {
 }
 
 h1, h2 {
-    color: #fff;
-    margin: 0;
+    text-decoration: none; /* Remove underline */
 }
 
 p {
