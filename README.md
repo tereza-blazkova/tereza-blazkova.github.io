@@ -33,7 +33,7 @@
             border: none; /* Remove borders if any */
         }
         nav a {
-            color: #FFA500;
+            color: #fea585;
             padding: 1rem;
             text-decoration: none;
             display: block;
@@ -88,7 +88,7 @@
     <div class="header-container">
         <header>
             <h1>Tereza Blažková</h1>
-            <h1>(WEBSITE UNDER CONSTRUCTION)</h1>
+            <!--     <h1>(WEBSITE UNDER CONSTRUCTION)</h1> -->
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
         </header>
         <nav>
@@ -107,33 +107,33 @@
         <section id="publications">
             <h2>Publications</h2>
             <ul>
-                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #FFA500;">Greenwashing debates on Twitter: Stakeholders and critical topics</a></li>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585;">Greenwashing debates on Twitter: Stakeholders and critical topics</a></li>
                 <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a>Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media</a> (Under review)</li>
             </ul>
         </section>
         <section id="blog">
             <h2>Blog</h2>
             <ul>
-                <li><a href="my-motivation.html" style="color: #FFA500;">My motivation to have a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
+                <li><a href="my-motivation.html" style="color: #fea585;">My motivation to have a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <ul>
-                <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #FFA500;">tebla@sodas.ku.dk</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #FFA500;">linkedin.com/in/tblazkova/</a></li>
-                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #FFA500;">Google Scholar profile</a></li>
-                <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #FFA500;">@tereza_blazek</a></li>
+                <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #fea585;">tebla@sodas.ku.dk</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #fea585;">linkedin.com/in/tblazkova/</a></li>
+                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #fea585;">Google Scholar profile</a></li>
+                <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #fea585;">@tereza_blazek</a></li>
             </ul>
         </section>
         <section id="cv">
             <h2>CV</h2>
             <p>You can view or download my CV using the links below:</p>
             <!-- Link to view the CV in the browser -->
-            <a href="cv.pdf" target="_blank" style="color: #FFA500;">View CV (PDF)</a>
+            <a href="cv.pdf" target="_blank" style="color: #fea585;">View CV (PDF)</a>
             <br>
             <!-- Link to download the CV -->
-            <a href="cv.pdf" download style="color: #FFA500;">Download CV (PDF)</a>
+            <a href="cv.pdf" download style="color: #fea585;">Download CV (PDF)</a>
         </section>
     </div>
 </body>
