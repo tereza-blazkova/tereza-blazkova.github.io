@@ -36,10 +36,7 @@ header {
 
 /* Container styling for header and nav */
 .header-container, .container {
-    max-width: 800px;
-    margin: 2rem auto;
-    width: 100%;
-    overflow: hidden; /* Add this to prevent overflow */
+    margin: 0 auto;
 }
 
 nav {
