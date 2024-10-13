@@ -76,14 +76,40 @@ a[href="https://tereza-blazkova.github.io/"] {
 /* Language switcher */
 #language-switch {
     margin-top: 1rem;
+    text-align: center;
 }
 
+/* Language switcher button styles */
+#language-switch button {
+    background-color: transparent;
+    color: #fea585;
+    border: 1px solid #fea585;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#language-switch button:hover {
+    background-color: #fea585;
+    color: #333;
+}
+
+#language-switch button.active {
+    background-color: #fea585;
+    color: #333;
+}
+
+/* Hide content when language is switched */
 .hidden {
     display: none;
 }
     </style>
     <script>
         function switchLanguage(lang) {
+            // Toggle visibility of English and Czech content
             if (lang === 'cz') {
                 document.getElementById('english-content').classList.add('hidden');
                 document.getElementById('czech-content').classList.remove('hidden');
@@ -95,6 +121,12 @@ a[href="https://tereza-blazkova.github.io/"] {
                 document.getElementById('english-nav').classList.remove('hidden');
                 document.getElementById('czech-nav').classList.add('hidden');
             }
+            // Highlight the active language button
+            const buttons = document.querySelectorAll('#language-switch button');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+            document.querySelector(`#language-switch button[onclick="switchLanguage('${lang}')"]`).classList.add('active');
         }
     </script>
 </head>
@@ -105,7 +137,7 @@ a[href="https://tereza-blazkova.github.io/"] {
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
             <p>(WEBPAGE UNDER CONSTRUCTION)</p>
             <div id="language-switch">
-                <button onclick="switchLanguage('en')">English</button>
+                <button onclick="switchLanguage('en')" class="active">English</button>
                 <button onclick="switchLanguage('cz')">Česky</button>
             </div>
         </header>
