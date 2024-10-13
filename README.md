@@ -103,6 +103,7 @@ a[href="https://tereza-blazkova.github.io/"] {
         <header>
             <h1>Tereza Blažková</h1>
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
+            <p>(WEBPAGE UNDER CONSTRUCTION)</p>
             <div id="language-switch">
                 <button onclick="switchLanguage('en')">English</button>
                 <button onclick="switchLanguage('cz')">Česky</button>
@@ -169,9 +170,9 @@ a[href="https://tereza-blazkova.github.io/"] {
         </section>
         <section id="publications">
             <h2>Publikace</h2>
-            <ul>
-                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585;" target="_blank">Debaty o greenwashingu na Twitteru: Zúčastněné strany a kritická témata</a></li>
-                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a>Sentimenty a udržitelnost: Vnímání zainteresovaných stran o udržitelné módě na sociálních médiích</a> (V recenzi)</li>
+             <ul>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585;" target="_blank">Greenwashing debates on Twitter: Stakeholders and critical topics</a></li>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a>Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media</a> (Under review)</li>
             </ul>
         </section>
         <section id="blog">
