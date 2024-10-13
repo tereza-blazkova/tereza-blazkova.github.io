@@ -18,6 +18,7 @@ html, body {
 header {
     background-color: #333;
     color: #fff;
+    padding: 1rem;
     text-align: center;
     margin: 0;
     border: none;
