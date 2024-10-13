@@ -4,6 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
+/* Ensure padding and borders are included in the element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,9 +18,10 @@ body {
 }
 
 /* Container styling for header and nav to match sections below */
-.header-container {
-    max-width: 90%; /* Use percentage for flexible width */
-    margin: 2rem auto; /* Center align and space from top */
+.header-container, .container {
+    max-width: 800px; /* Ensure same width for header and sections */
+    margin: 2rem auto; /* Center align both */
+    width: 100%; /* Ensure it takes full width up to max-width */
 }
 
 header {
@@ -33,7 +39,7 @@ nav {
     justify-content: center;
     background-color: #333; /* Same grey as header */
     padding: 0.5rem;
-    margin: 0; /* Remove margin to eliminate gap */
+    margin: 0;
     border: none;
     border-radius: 0 0 8px 8px; /* Only bottom corners rounded */
     flex-wrap: wrap; /* Allow links to wrap on smaller screens */
@@ -49,12 +55,6 @@ nav a {
 
 nav a:hover {
     background-color: #444;
-}
-
-.container {
-    padding: 2rem;
-    max-width: 90%; /* Use percentage for flexible width */
-    margin: 0 auto;
 }
 
 section {
@@ -115,7 +115,7 @@ a[href="https://tereza-blazkova.github.io/"] {
     footer {
         font-size: 0.8rem; /* Reduce footer font size */
     }
-}  
+}
     </style>
 </head>
 <body>
