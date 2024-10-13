@@ -123,7 +123,7 @@ a[href="https://tereza-blazkova.github.io/"] {
     <div class="header-container">
         <header>
             <h1>Tereza Blažková</h1>
-            <!--     <h1>(WEBSITE UNDER CONSTRUCTION)</h1> -->
+            (WEBSITE UNDER CONSTRUCTION)
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
         </header>
         <nav>
@@ -149,7 +149,7 @@ a[href="https://tereza-blazkova.github.io/"] {
         <section id="blog">
             <h2>Blog</h2>
             <ul>
-                <li><a href="my-motivation.html" style="color: #fea585;">My motivation to have a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
+                <li><a href="why-website.html" style="color: #fea585;">Why I started a personal website </a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
             </ul>
         </section>
         <section id="contact">
