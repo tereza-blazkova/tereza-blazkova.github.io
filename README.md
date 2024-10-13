@@ -60,8 +60,8 @@ nav a {
     transition: background-color 0.3s;
 }
 
-nav a:hover {
-    background-color: #444;
+nav a:hover, a:hover {
+    text-decoration: none; /* Ensure no underline on hover */
 }
 
 /* Section styling */
