@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
+/* Reset margin and padding on the whole page */
 html, body {
     margin: 0;
     padding: 0;
@@ -21,10 +22,10 @@ header {
     padding: 1rem;
     text-align: center;
     margin: 0;
-    border: none; /* Ensure no borders */
-    outline: none; /* Remove any outlines */
-    box-shadow: none; /* Remove any box-shadow */
-    border-radius: 8px 8px 0 0; /* Rounded corners */
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 8px 8px 0 0;
 }
 
 /* Reset margin and padding for all elements to avoid extra lines */
@@ -37,8 +38,9 @@ header {
 /* Container styling for header and nav */
 .header-container, .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 100%;
+    overflow: hidden; /* Add this to prevent overflow */
 }
 
 nav {
