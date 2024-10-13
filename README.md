@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
-
 html, body {
     margin: 0;
     padding: 0;
@@ -20,13 +19,8 @@ header {
     color: #fff;
     padding: 1rem;
     text-align: center;
-    margin: 0;
-    border: none;
-    outline: none;
-    box-shadow: none;
     border-radius: 8px 8px 0 0;
 }
-
 
 * {
     margin: 0;
@@ -38,29 +32,19 @@ header {
     max-width: 800px;
     margin: 2rem auto;
     width: 100%;
-    overflow: hidden; /* Add this to prevent overflow */
 }
 nav {
     display: flex;
     justify-content: center;
     background-color: #333;
     padding: 0.5rem;
-    margin: 0;
-    border: none;
     border-radius: 0 0 8px 8px;
-    flex-wrap: wrap;
 }
 
 nav a {
     color: #fea585;
     padding: 1rem;
     text-decoration: none;
-    display: block;
-    transition: background-color 0.3s;
-}
-
-nav a:hover, a:hover {
-    text-decoration: none; /* Ensure no underline on hover */
 }
 
 section {
@@ -70,19 +54,10 @@ section {
     border-radius: 8px;
 }
 
-h1, h2 {
-    text-decoration: none; /* Remove underline */
-}
-
-p {
-    margin: 0.5rem 0;
-}
-
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #111;
-    color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -98,46 +73,63 @@ a[href="https://tereza-blazkova.github.io/"] {
     display: none;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-    body {
-        font-size: 0.9rem;
-    }
-    header {
-        padding: 0.5rem;
-    }
-    nav a {
-        padding: 0.5rem;
-    }
-    .container {
-        padding: 1rem;
-    }
-    footer {
-        font-size: 0.8rem;
-    }
+/* Language switcher */
+#language-switch {
+    margin-top: 1rem;
+}
+
+.hidden {
+    display: none;
 }
     </style>
+    <script>
+        function switchLanguage(lang) {
+            if (lang === 'cz') {
+                document.getElementById('english-content').classList.add('hidden');
+                document.getElementById('czech-content').classList.remove('hidden');
+                document.getElementById('english-nav').classList.add('hidden');
+                document.getElementById('czech-nav').classList.remove('hidden');
+            } else {
+                document.getElementById('english-content').classList.remove('hidden');
+                document.getElementById('czech-content').classList.add('hidden');
+                document.getElementById('english-nav').classList.remove('hidden');
+                document.getElementById('czech-nav').classList.add('hidden');
+            }
+        }
+    </script>
 </head>
 <body>
-    <!-- Container to wrap the header and nav elements for uniform width -->
     <div class="header-container">
         <header>
             <h1>Tereza Blažková</h1>
-            (WEBSITE UNDER CONSTRUCTION)
             <p>PhD Student in Social Data Science at the University of Copenhagen</p>
+            <div id="language-switch">
+                <button onclick="switchLanguage('en')">English</button>
+                <button onclick="switchLanguage('cz')">Česky</button>
+            </div>
         </header>
-        <nav>
+        <!-- English Navigation -->
+        <nav id="english-nav">
             <a href="#about">About</a>
             <a href="#publications">Publications</a>
             <a href="#blog">Blog</a>
             <a href="#contact">Contact</a>
             <a href="#cv">CV</a>
         </nav>
+        <!-- Czech Navigation -->
+        <nav id="czech-nav" class="hidden">
+            <a href="#about">O mně</a>
+            <a href="#publications">Publikace</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Kontakt</a>
+            <a href="#cv">Životopis</a>
+        </nav>
     </div>
-    <div class="container">
+    <!-- English Content -->
+    <div id="english-content" class="container">
         <section id="about">
             <h2>About</h2>
-            <p>Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. My research focuses on the use of data for improving educational outcomes and on algorithm audits. My academic interests revolve around responsible AI, algorithmic fairness, algorithm auditing, data governance, education data science and sustainability. I am particularly interested in using qualitative and quantitative mixed methods approach to ensure that an algorithm design corresponds to the needs of the environment in which it operates.</p>
+            <p>Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. My research focuses on the use of data for improving educational outcomes and on algorithm audits. My academic interests revolve around responsible AI, algorithmic fairness, algorithm auditing, data governance, education data science, and sustainability. I am particularly interested in using qualitative and quantitative mixed methods to ensure that an algorithm design corresponds to the needs of the environment in which it operates.</p>
         </section>
         <section id="publications">
             <h2>Publications</h2>
@@ -149,7 +141,7 @@ a[href="https://tereza-blazkova.github.io/"] {
         <section id="blog">
             <h2>Blog</h2>
             <ul>
-                <li><a href="blog-why-website.html" style="color: #fea585;">Why I started a personal website </a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
+                <li><a href="blog-why-website.html" style="color: #fea585;">Why I started a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
             </ul>
         </section>
         <section id="contact">
@@ -167,6 +159,42 @@ a[href="https://tereza-blazkova.github.io/"] {
             <a href="cv.pdf" target="_blank" style="color: #fea585;">View CV (PDF)</a>
             <br>
             <a href="cv.pdf" download style="color: #fea585;">Download CV (PDF)</a>
+        </section>
+    </div>
+    <!-- Czech Content -->
+    <div id="czech-content" class="container hidden">
+        <section id="about">
+            <h2>O mně</h2>
+            <p>Ahoj! Jmenuji se Tereza a jsem doktorandkou v oboru sociálních datových věd na univerzitě v Kodani. Můj výzkum se zaměřuje na využití dat ke zlepšení vzdělávacích výsledků a na audity algoritmů. Moje akademické zájmy se točí kolem zodpovědné umělé inteligence, spravedlnosti algoritmů, auditů algoritmů, správy dat, vědy o vzdělávacích datech a udržitelnosti. Zajímám se především o využití smíšených metod (kvalitativních i kvantitativních), které zajistí, že návrh algoritmu odpovídá potřebám prostředí, ve kterém funguje.</p>
+        </section>
+        <section id="publications">
+            <h2>Publikace</h2>
+            <ul>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585;" target="_blank">Debaty o greenwashingu na Twitteru: Zúčastněné strany a kritická témata</a></li>
+                <li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a>Sentimenty a udržitelnost: Vnímání zainteresovaných stran o udržitelné módě na sociálních médiích</a> (V recenzi)</li>
+            </ul>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <ul>
+                <li><a href="blog-why-website.html" style="color: #fea585;">Proč jsem začala osobní webovou stránku</a> - Stručný přehled o tom, proč jsem vytvořila tento web a co od něj očekávám.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <ul>
+                <li>Email: <a href="mailto:tebla@sodas.ku.dk" style="color: #fea585;">tebla@sodas.ku.dk</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/tblazkova/" style="color: #fea585;" target="_blank">linkedin.com/in/tblazkova/</a></li>
+                <li>Google Scholar: <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" style="color: #fea585;" target="_blank">Google Scholar profil</a></li>
+                <li>X: <a href="https://twitter.com/tereza_blazek" style="color: #fea585;" target="_blank">@tereza_blazek</a></li>
+            </ul>
+        </section>
+        <section id="cv">
+            <h2>Životopis</h2>
+            <p>Můžete si prohlédnout nebo stáhnout můj životopis pomocí odkazů níže:</p>
+            <a href="cv.pdf" target="_blank" style="color: #fea585;">Zobrazit životopis (PDF)</a>
+            <br>
+            <a href="cv.pdf" download style="color: #fea585;">Stáhnout životopis (PDF)</a>
         </section>
     </div>
 </body>
