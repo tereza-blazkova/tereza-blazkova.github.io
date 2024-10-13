@@ -5,7 +5,7 @@
     <title>Tereza Blažková - Academic Website</title>
     <style>
 /* Ensure no unwanted margin or padding on the whole page */
- body {
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -18,6 +18,11 @@
 /* Ensure padding and borders are included in the element's total width and height */
 * {
     box-sizing: border-box;
+}
+
+/* Reset margins for header elements */
+h1, p {
+    margin: 0; /* Remove any extra margins */
 }
 
 /* Container styling for header and nav to match sections below */
