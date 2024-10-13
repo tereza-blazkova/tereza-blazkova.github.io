@@ -14,8 +14,8 @@ body {
 
 /* Container styling for header and nav to match sections below */
 .header-container {
-    max-width: 800px; /* Same width as the container sections */
-    margin: 2rem auto; /* Add some top margin for spacing */
+    max-width: 90%; /* Use percentage for flexible width */
+    margin: 2rem auto; /* Center align and space from top */
 }
 
 header {
@@ -23,19 +23,20 @@ header {
     color: #fff;
     padding: 1rem;
     text-align: center;
-    margin: 0; /* Remove default margins */
-    border: none; /* Remove borders if any */
-    border-radius: 8px; /* Add rounded corners */
+    margin: 0;
+    border: none;
+    border-radius: 8px 8px 0 0; /* Only top corners rounded */
 }
 
 nav {
     display: flex;
     justify-content: center;
     background-color: #333; /* Same grey as header */
-    padding: 0.5rem; /* Adjust padding for consistency */
-    margin: 1rem 0 0 0; /* Add some top margin to separate from header */
-    border: none; /* Remove borders if any */
-    border-radius: 8px; /* Add rounded corners */
+    padding: 0.5rem;
+    margin: 0; /* Remove margin to eliminate gap */
+    border: none;
+    border-radius: 0 0 8px 8px; /* Only bottom corners rounded */
+    flex-wrap: wrap; /* Allow links to wrap on smaller screens */
 }
 
 nav a {
@@ -52,24 +53,24 @@ nav a:hover {
 
 .container {
     padding: 2rem;
-    max-width: 800px;
+    max-width: 90%; /* Use percentage for flexible width */
     margin: 0 auto;
 }
 
 section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #333; /* Same grey background */
+    background-color: #333;
     border-radius: 8px;
 }
 
 h1, h2 {
     color: #fff;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 
 p {
-    margin: 0.5rem 0; /* Adjust paragraph margins */
+    margin: 0.5rem 0;
 }
 
 footer {
@@ -96,6 +97,25 @@ a:hover {
 a[href="https://tereza-blazkova.github.io/"] {
     display: none;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+    header {
+        padding: 0.5rem; /* Reduce padding for smaller screens */
+    }
+    nav a {
+        padding: 0.5rem; /* Reduce padding for links */
+    }
+    .container {
+        padding: 1rem; /* Reduce padding in sections */
+    }
+    footer {
+        font-size: 0.8rem; /* Reduce footer font size */
+    }
+}  
     </style>
 </head>
 <body>
