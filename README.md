@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
-/* Reset margin and padding on the whole page */
 html, body {
     margin: 0;
     padding: 0;
@@ -38,7 +37,7 @@ header {
 /* Container styling for header and nav */
 .header-container, .container {
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 0 auto;
     width: 100%;
 }
 
