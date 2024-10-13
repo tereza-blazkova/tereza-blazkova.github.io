@@ -149,7 +149,7 @@ a[href="https://tereza-blazkova.github.io/"] {
         <section id="blog">
             <h2>Blog</h2>
             <ul>
-                <li><a href="why-website.html" style="color: #fea585;">Why I started a personal website </a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
+                <li><a href="blog-why-website.html" style="color: #fea585;">Why I started a personal website </a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
             </ul>
         </section>
         <section id="contact">
