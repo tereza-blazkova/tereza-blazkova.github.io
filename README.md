@@ -4,17 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
     <style>
-/* Ensure padding and borders are included in the element's total width and height */
-* {
+/* Ensure no unwanted margin or padding on the whole page */
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #5E716A;
+    color: #fff;
+    font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #5E716A;
-    color: #fff;
+/* Ensure padding and borders are included in the element's total width and height */
+* {
+    box-sizing: border-box;
 }
 
 /* Container styling for header and nav to match sections below */
