@@ -39,12 +39,29 @@ nav {
     background-color: #333;
     padding: 0.5rem;
     border-radius: 0 0 8px 8px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 nav a {
     color: #fea585;
     padding: 1rem;
     text-decoration: none;
+    flex: 1 1 auto; /* Flex-grow, flex-shrink, flex-basis for better wrapping */
+    text-align: center; /* Center text in each link */
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 600px) {
+    nav a {
+        padding: 0.5rem;
+        font-size: 0.9rem; /* Reduce font size for smaller screens */
+    }
+    .header-container, .container {
+        margin: 1rem auto; /* Reduce margins to fit better on small screens */
+    }
+    footer {
+        font-size: 0.8rem; /* Reduce footer text size */
+    }
 }
 
 section {
