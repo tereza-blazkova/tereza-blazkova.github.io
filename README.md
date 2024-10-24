@@ -15,7 +15,7 @@ html, body {
 }
 
 header {
-    background-color: #333;
+    background-color: #5E716A;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -110,12 +110,12 @@ a[href="https://tereza-blazkova.github.io/"] {
 }
 
 #language-switch button:hover {
-    background-color: #fea585;
+    background-color: transparent;
     color: ##5E716A ;
 }
 
 #language-switch button.active {
-    background-color: #fea585;
+    background-color: transparent ;
     color: ##5E716A ;
 }
 
