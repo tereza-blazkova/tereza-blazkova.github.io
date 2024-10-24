@@ -67,7 +67,7 @@ nav a {
 section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #333;
+    background-color:  #5E716A ; <!--#333; -->
     border-radius: 8px;
 }
 
