@@ -36,7 +36,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #5E716A ;   <!-- background-color: #333; -->
     padding: 0.5rem;
     border-radius: 0 0 8px 8px;
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
@@ -111,12 +111,12 @@ a[href="https://tereza-blazkova.github.io/"] {
 
 #language-switch button:hover {
     background-color: #fea585;
-    color: #333;
+    color: ##5E716A ;
 }
 
 #language-switch button.active {
     background-color: #fea585;
-    color: #333;
+    color: ##5E716A ;
 }
 
 /* Hide content when language is switched */
