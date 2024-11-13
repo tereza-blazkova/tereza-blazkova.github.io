@@ -97,7 +97,7 @@ display: none;
 <header>
 <h1>Tereza Blažková</h1>
 <p>PhD Student in Social Data Science at the University of Copenhagen</p>
-<p><span style="background-color: pink; color: black;">(WEBSITE UNDER CONSTRUCTION)</span></p>
+<!--<p><span style="background-color: pink; color: black;">(WEBSITE UNDER CONSTRUCTION)</span></p>-->
 </header>
 <!-- English Navigation -->
 <nav id="english-nav">
