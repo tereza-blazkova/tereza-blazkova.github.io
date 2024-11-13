@@ -147,7 +147,7 @@ display: none;
 </section>
 <section id="footer">
     <h2></h2>
-    <p style="text-align: center; color: black;">Last updated November 13, 2024. All rights reserved.</p>
+    <p style="text-align: center; color: black;">Last updated November 13, 2024.</p>
     <p style="text-align: center; color: black;">Built with a touch of my high school HTML skills and a lot of support from ChatGPT.</p>
 </section>
 
