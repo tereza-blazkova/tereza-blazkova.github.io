@@ -139,7 +139,7 @@ display: none;
 </section>
 <section id="cv">
 <h2>CV</h2>
-<p>view or download my CV:</p>
+<p>View or download my CV:</p>
 <a href="cv.pdf" target="_blank" style="color: #fea585;">View CV (PDF)</a>
 <br>
 <a href="cv.pdf" download style="color: #fea585;">Download CV (PDF)</a>
