@@ -149,6 +149,5 @@ display: none;
 <a href="cv.pdf" download style="color: #fea585;">Download CV (PDF)</a>
 </section>
 </div>
-</div>
 </body>
 </html>
