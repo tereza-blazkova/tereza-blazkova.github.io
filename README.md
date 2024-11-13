@@ -114,7 +114,7 @@ display: none;
 <div id="english-content" class="container">
 <section id="about">
 <h2>About</h2>
-<p>Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. My research interest is in practical, interdisciplinary methods for evaluating and improving data-driven systems for positive, responsible change. Currently, I focus on predictive analytics in education, algorithmic fairness, and integrating mixed methods with algorithm auditing to develop a participatory algorithm design. ![image](https://github.com/user-attachments/assets/b07f5182-5889-47a7-9509-b8e83135f1b4)
+<p>Hi! My name is Tereza and I am a PhD student in Social Data Science at the University of Copenhagen. My research interest is in practical, interdisciplinary methods for evaluating and improving data-driven systems for positive, responsible change. Currently, I focus on predictive analytics in education, algorithmic fairness, and integrating mixed methods with algorithm auditing to develop a participatory algorithm design.
 </p>
 </section>
 <section id="publications">
