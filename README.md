@@ -123,12 +123,12 @@ display: none;
         <li>
             <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585; font-weight: bold;" target="_blank">Greenwashing debates on Twitter: Stakeholders and critical topics</a>
             <br>
-            Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati
+            Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, and Francesco Rosati
         </li>
         <li>
             <a style="color: #fea585; font-weight: bold;">Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media</a> (Under review)
             <br>
-            Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen
+            Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, and Kirsti Reitan Andersen
         </li>
     </ul>
 </section>
