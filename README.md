@@ -125,7 +125,7 @@ display: none;
 <section id="blog">
 <h2>Blog</h2>
 <ul>
-<li><a href="blog-why-website.html" style="color: #fea585;">Why I started a personal website</a> - A brief overview of why I created this website and what I hope to achieve with it.</li>
+<li><a href="blog-test.html" style="color: #fea585;">Test</a> - Just testing blog function.</li>
 </ul>
 </section>
 <section id="contact">
