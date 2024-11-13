@@ -48,6 +48,7 @@ padding: 1rem;
 text-decoration: none;
 flex: 1 1 auto; /* Flex-grow, flex-shrink, flex-basis for better wrapping */
 text-align: center; /* Center text in each link */
+font-weight: bold; /* Makes the text bold */
 }
 
 /* Responsive adjustments for small screens */
