@@ -120,8 +120,10 @@ display: none;
 <section id="publications">
 <h2>Publications</h2>
 <ul>
-<li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati - <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585;" target="_blank">Greenwashing debates on Twitter: Stakeholders and critical topics</a></li>
-<li>Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen - <a>Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media</a> (Under review)</li>
+<li> <a href="https://www.sciencedirect.com/science/article/pii/S0959652623034182" style="color: #fea585;" target="_blank">Greenwashing debates on Twitter: Stakeholders and critical topics</a>
+Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen, Francesco Rosati</li>
+<li> <a>Sentiments and Sustainability: Stakeholder Perceptions of Sustainable Fashion on Social Media</a> (Under review)
+Tereza Blazkova, Esben Rahbek Gjerdrum Pedersen, Kirsti Reitan Andersen</li>
 </ul>
 </section>
 <section id="blog">
