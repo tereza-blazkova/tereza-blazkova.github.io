@@ -146,5 +146,11 @@ display: none;
 <a href="cv.pdf" download style="color: #fea585;">Download CV (PDF)</a>
 </section>
 </div>
+<!-- Footer -->
+<footer>
+    <p>Last updated November 13, 2024. All rights reserved.</p>
+    <p>Built with a touch of my high school HTML skills and a lot of support from ChatGPT.</p>
+</footer>
+
 </body>
 </html>
