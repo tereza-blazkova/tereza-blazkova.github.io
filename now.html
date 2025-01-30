@@ -83,6 +83,62 @@
             font-size: 1rem;
             margin-bottom: 0.8rem;
         }
+
+        /* Mobile optimization */
+        @media (max-width: 768px) {
+            /* Reduce padding and margins for mobile */
+            .container {
+                padding: 2rem;
+                margin: 1.5rem auto;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+                margin-bottom: 1rem;
+            }
+
+            p, li {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                padding-left: 1rem;
+            }
+
+            .footer {
+                font-size: 1rem;
+                margin-top: 2rem;
+            }
+
+            .footer a {
+                font-size: 1rem;
+            }
+        }
+
+        /* Very small screens (mobile phones in portrait mode) */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            p, li {
+                font-size: 0.95rem;
+            }
+
+            .footer {
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 <body>
