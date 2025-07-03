@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tereza Blažková - Academic Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         html, body {
             margin: 0;
@@ -90,15 +91,43 @@ footer p {
                 font-size: 0.8rem;
             }
         }
+        .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    color: #004225;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+
+
+        
     </style>
 </head>
 
 <body>
     <div class="header-container">
-        <header>
-            <h1>Tereza Blažková</h1>
-            <p>PhD Student in Social Data Science at the University of Copenhagen</p>
-        </header>
+       <header>
+    <h1>Tereza Blažková</h1>
+    <p>PhD Student in Social Data Science at the University of Copenhagen</p>
+    <div class="social-icons">
+        <a href="mailto:tereza.blazkova@sodas.ku.dk" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/tblazkova/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://scholar.google.com/citations?user=BPCG6uoAAAAJ&hl=cs" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://bsky.app/profile/terezablazek.bsky.social" target="_blank" title="Bluesky"><i class="fas fa-cloud"></i></a>
+        <a href="cv.pdf" target="_blank" title="CV"><i class="fas fa-file-alt"></i></a>
+    </div>
+</header>
 <!-- 
 <nav>
     <a href="#about">About</a>
